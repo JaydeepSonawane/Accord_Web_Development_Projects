@@ -1,0 +1,526 @@
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	/* font-family: 'Open Sans Condensed', sans-serif; */
+}
+/* -------Navbar css--------------- */
+.navbar{
+  height: 97px;
+  top: 0;
+  width: 100%; 
+}
+
+#navigation_bar {
+	padding-right: 70px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #fff;
+	font-size: 17px;
+	font-weight: bold;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	display: block;
+	transition: top 0.3s;
+  }
+
+.nav-item{
+	margin-right: 55px;
+}
+
+.nav-link:hover{
+	color: #c9aa5d;
+}
+
+.nav_bar_icon{
+	margin-top: 15px;
+	margin-left: 170px;
+	width: 150px;
+	height: 80px;
+}
+.phone_number a{
+	color: #c9aa5d;
+}
+.phone_number img{
+	width: 25px;
+	height: 25px;
+	max-width: 100%;
+	max-height: 100%;
+}
+/* ----------------Below Nav Text - Home page------------- */
+.center_text{
+	width: 100%;
+	height: 850px;
+	background-image: linear-gradient(rgba(200,200,200,0.1),rgba(200,200,200,0.1)),url('../Images/formation_home_background.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.center_text img{
+	max-height: 100%;
+	max-width: 100%;
+	margin-top: 640px;
+}
+
+.home_text{
+	padding-top: 300px;
+	font-size: 115px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: #fff;
+}
+
+.scrollDwn{
+	font-size: 22px;
+	margin-left:46%;
+	position: fixed;
+	padding-top: 185px;
+	letter-spacing: 3px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: #fff;
+}
+
+.below_center_div img{
+	position: relative;
+	margin-top: 310px;
+}
+
+/* -----------------who - we - are ---------------- */
+.who_we_are{
+	width: 100%;
+	height: 800px;
+	z-index: 999;
+	text-align: center;
+	padding-top: 100px;
+	background-color: #4c4845;
+}
+
+.flex_who_we_are{
+	margin-left: 650px;
+	letter-spacing: 2px;
+	text-align: center;
+	display: flex;
+	width: 300px;
+	height: 20px;
+}
+.who_we_are_border_under_before{
+	width: 50px;
+	height: 10px;
+	border-bottom: 2px solid #fff;
+}
+
+.who_we_are_border_under_after{
+	width: 50px;
+	height: 10px;
+	border-bottom: 2px solid #fff;
+}
+
+.who_we_are h6{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: #fff;
+}
+
+.who_we_are h1{
+	color: #c9aa5d;
+	font-size: 54px;
+	letter-spacing: 3px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	margin-top: 50px;
+}
+
+.who_we_are p{
+	margin-top: 50px;
+	font-size: 19px;
+	letter-spacing: 1px;
+	line-height: 30px;
+	color: #fff;
+}
+
+.who_we_are_anchor{
+	margin-top: 90px;
+}
+
+.who_we_are a{
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 24px;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+.who_we_are_anchor a:hover {
+	color: #A5A5A5;
+  }
+
+.who_we_are img{
+	max-height: 100%;
+	max-width: 100%;
+	margin-top: 130px;
+}
+/* ----------What - we - Offer 1 ------------------------- */
+.what_we_offer_1{
+	width: 100%;
+	height: 1200px;
+	background-color: #fff;
+}
+
+
+.flex_what_we_offer_1{
+	margin-left: 639px;
+	margin-top: 200px;
+	letter-spacing: 2px;
+	text-align: center;
+	display: flex;
+	width: 300px;
+	height: 20px;
+}
+.what_we_offer_1_border_under_before{
+	width: 50px;
+	height: 10px;
+	border-bottom: 2px solid;
+}
+
+.what_we_offer_1_border_under_after{
+	width: 50px;
+	height: 10px;
+	border-bottom: 2px solid;
+}
+
+.what_we_offer_1 h6{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: black;
+}
+
+.what_we_offer_1 h1{
+	color: #c9aa5d;
+	font-size: 54px;
+	text-align: center;
+	letter-spacing: 3px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	margin-top: 50px;
+}
+
+.what_we_offer_1 p{
+	margin-top: 50px;
+	font-size: 19px;
+	font-weight: lighter;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 30px;
+	color: black;
+}
+
+.what_we_offer_1_tiles{
+	margin-top: 50px;
+	margin-left: 170px;
+	width:1225px;
+	height: 590px;
+}
+
+.r_1{
+	width: 1200px;
+	height:290px;
+	display: flex;
+}
+
+.r_2{
+	width: 1200px;
+	height:290px;
+	display: flex;
+}
+
+.what_we_offer_1_tiles_image{
+	width: 270px;
+	height: 270px;
+}
+
+
+.container {
+	height: 270px;
+	position: relative;
+	font-weight: bold;
+  }
+  
+  
+  .overlay {
+	position: absolute;
+	margin-top: 5px;
+	bottom: 0;
+	height: 100%;
+	width: 270px;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #c8aa5e;
+  }
+  
+  .container:hover .overlay {
+	opacity: 1;
+  }
+  
+  .text {
+	color: white;
+	font-size: 25px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 2px;
+	position: absolute;
+	margin-top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+  }
+
+  .product_button {
+	background-color: #c8aa5e; /* Green */
+	border: none;
+	color: white;
+	padding: 16px 37px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	margin: 4px 2px;
+	letter-spacing: 3px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+
+  .button1 {
+	margin-left: 45%;
+	margin-top: 50px;
+	background-color: #c8aa5e; 
+	color: white; 
+	border: 2px solid #c8aa5e;
+  }
+
+  .button1:hover {
+	background-color: white;
+	color: #c8aa5e;
+  }
+
+
+/* ----------------grit_of_slab-------------------------------- */
+.grit_of_slab{
+	width: 100%;
+	height: 595px;
+	padding-top: 250px;
+	background-image: linear-gradient(rgba(100,100,100,0.1),rgba(100,100,100,0.1)),url('../Images/formationslab-location-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+
+	text-align: center;
+	font-size: 55px;
+	color: #fff;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 2px;
+
+}
+/* -----------------service_icons------------------------- */
+.service_icons{
+	width: 100%;
+	height: 880px;
+	padding-top: 20px;
+	padding-left: 200px;
+	padding-right: 200px;
+	background-color: #fff;
+}
+
+.service_icons_parent{
+	margin: 25px;
+	width: 1090px;
+	height: 670px;
+}
+
+.child_1{
+	margin: 5px;
+	width: 1080;
+	height: 332px;
+	display: flex;
+}
+
+.service_icons_box{
+	margin: 10px;
+	width: 520px;
+	height: 302px;
+}
+
+.service_icons_icon{
+	width: 100%;
+	height: 70px;
+}
+
+.service_icons_name{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-size: 23px;
+}
+
+.service_icons_text{
+	width: 100%;
+	height: 180px;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 27px;
+	font-weight: lighter;
+	font-size: 19px;
+}
+
+.service_icons_anchor{
+	margin-top: 50px;
+}
+
+.service_icons_anchor a{
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 24px;
+	letter-spacing: 1px;
+	color: #c9aa5d;
+}
+
+.service_icons_anchor a:hover {
+	color: #e7dab9;
+  }
+
+
+
+
+/* -------------------visit_us------------------------------- */
+.visit_us{
+	width: 100%;
+	height: 340px;
+}
+
+.visit_us_images{
+	display: flex;
+}
+
+#visit_us_1{
+	width: 505px;
+	height: 340px;
+	background-image: url('../Images/formationslab-location-v1.jpg');
+}
+
+#visit_us_2{
+	margin-left: 5px;
+	margin-right: 5px;;
+	width: 500px;
+	height: 340px;
+	background-image: url('../Images/formationslab-showroom-v2.jpg');
+}
+
+#visit_us_3{
+	width: 505px;
+	height: 340px;
+	background-image: url('../Images/formationslab-location-v3.jpg');
+}
+
+/* --------------what_we_offer_2---------------------------------- */
+.what_we_offer_2{
+	width: 100%;
+	height: 1150px;
+	padding-top: 100px;
+	background-color: #4c4845;
+}
+
+
+.flex_what_we_offer_2{
+	margin-left: 639px;
+	letter-spacing: 2px;
+	text-align: center;
+	display: flex;
+	width: 300px;
+	height: 20px;
+}
+.what_we_offer_2_border_under_before{
+	width: 50px;
+	height: 10px;
+	border-bottom: 2px solid #fff;
+}
+
+.what_we_offer_2_border_under_after{
+	width: 50px;
+	height: 10px;
+	border-bottom: 2px solid #fff;
+}
+
+.what_we_offer_2 h6{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: white;
+}
+
+.what_we_offer_2 h1{
+	color: #fff;
+	font-size: 54px;
+	text-align: center;
+	letter-spacing: 3px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	margin-top: 50px;
+}
+
+.what_we_offer_2 p{
+	margin-top: 25px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-weight: lighter;
+}
+/* ---------------story_behind_stone------------------------ */
+.story_behind_stone{
+	width: 100%;
+	height: 770px;
+	background-color: #ffffff;
+}
+/* --------------who_we_serve------------------------- */
+.who_we_serve{
+	width: 100%;
+	height: 1200px;
+	background-color: #dddddd;
+}
+/* ------------here_what_client_say---------------------- */
+.here_what_client_say{
+	width: 100%;
+	height: 800px;
+	background-color: #c9aa5d;
+}
+/* ------------------contact_us---------------------------- */
+.contact_us{
+	width: 100%;
+	height: 770px;
+	background-color: #fff;
+}
+/* ---------------contact_online---------------------- */
+.contact_online{
+	width: 100%;
+	height: 900px;
+	background-color: #7FFF00;
+}
+/* ---------------google_map-------------------------- */
+.google_map{
+	width: 100%;
+	height: 700px;
+	background-color: #878787;
+}
+/* -------------footer_section--------------------------- */
+.footer_section{
+	width: 100%;
+	height: 350px;
+	background-color: #4c4845;
+}
+/* ------------media queries------------------------ */
+@media screen and (min-width: 480px){
+
+}
