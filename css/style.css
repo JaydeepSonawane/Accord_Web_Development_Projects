@@ -1,0 +1,1013 @@
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	/* font-family: 'Open Sans Condensed', sans-serif; */
+}
+/* -------Navbar css--------------- */
+
+nav{
+	background: #fff;
+	height: 80px;
+	width: 100%;
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+	top: 0;
+	transition: top 0.3s;
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: black;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius:3px;
+	text-transform: uppercase;
+}
+nav ul li a.active, nav ul li a:hover{
+	color: #c9aa5d;
+	transition: .5s;
+}
+
+.fa-bars{
+	color: black;
+}
+
+.checkbtn{
+	font-size: 30px;
+	color: #fff;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check{
+	display: none;
+}
+
+
+/* ----------------Below Nav Text - Home page------------- */
+.below_center_div{
+	width: 100%;
+	height: auto;
+	background: url('../Images/formation_home_background.jpg') no-repeat;
+	background-size: 100% 100%;
+	padding-top: 16%;
+}
+
+.unearth{
+	width: 80%;
+	height: 75%;
+	font-size: 100px;
+	margin-left: 11%;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: #fff;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 4px;
+	font-weight: bold;
+	z-index: 0;
+	/* background-color: aqua; */
+}
+
+.down{
+	width: 80%;
+	display: block;
+	position: fixed;
+	margin-top: 12%;
+	font-size: 25px;
+	z-index: 1;
+}
+
+
+/* ------------------After section 1------------------ */
+.edge_1_image img{
+	margin-top: -5%;
+	max-height: 100%;
+	width: 100%;
+	z-index: 999;
+}
+
+
+
+
+
+/* -----------------who - we - are ---------------- */
+.who_we_are{
+	width: 100%;
+	height: auto;
+	z-index: 999;
+	text-align: center;
+	padding-top: 100px;
+	background-color: #4c4845;
+}
+
+.flex_who_we_are{
+	margin-left: 42%;
+	letter-spacing: 2px;
+	text-align: center;
+	display: flex;
+	width: 20%;
+	height: auto;
+}
+.who_we_are_border_under_before{
+	margin-top: 9px;
+	width: 50px;
+	height: 10px;
+	border-bottom: 2px solid #fff;
+}
+
+.who_we_are_border_under_after{
+	margin-top: 9px;
+	width: 50px;
+	height: 10px;
+	border-bottom: 2px solid #fff;
+}
+
+.who_we_are h6{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: #fff;
+}
+
+.who_we_are h1{
+	color: #c9aa5d;
+	font-size: 54px;
+	letter-spacing: 3px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	margin-top: 2%;
+	text-align: center;
+}
+
+.who_we_are p{
+	margin-top: 5%;
+	font-size: 19px;
+	letter-spacing: 1px;
+	line-height: 30px;
+	color: #fff;
+}
+
+.who_we_are_anchor{
+	margin-top: 7%;
+}
+
+.who_we_are a{
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 24px;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+.who_we_are_anchor a:hover {
+	color: #A5A5A5;
+}
+
+.who_we_are img{
+	margin-bottom: -4%;
+	max-height: 100%;
+	width: 100%;
+}
+/* ----------What - we - Offer 1 ------------------------- */
+.what_we_offer_1{
+	width: 100%;
+	height: auto;
+	padding-top: 10%;
+	background-color: #fff;
+}
+
+
+.flex_what_we_offer_1{
+	margin-left: 42%;
+	letter-spacing: 2px;
+	text-align: center;
+	display: flex;
+	width: 20%;
+	height: auto;
+}
+.what_we_offer_1_border_under_before{
+	margin-top: 9px;
+	width: 50px;
+	height: 10px;
+	border-bottom: 2px solid;
+}
+
+.what_we_offer_1_border_under_after{
+	margin-top: 9px;
+	width: 50px;
+	height: 10px;
+	border-bottom: 2px solid;
+}
+
+.what_we_offer_1 h6{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: black;
+}
+
+.what_we_offer_1 h1{
+	color: #c9aa5d;
+	font-size: 54px;
+	text-align: center;
+	letter-spacing: 3px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	margin-top: 50px;
+}
+
+.what_we_offer_1 p{
+	margin-top: 2%;
+	font-size: 19px;
+	font-weight: lighter;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 30px;
+	color: black;
+}
+
+.what_we_offer_1_tiles{
+	margin: auto;
+	width:100%;
+	height: auto;
+}
+
+.r_1{
+	margin: auto;
+	width: 80%;
+	height:27%;
+	display: flex;
+}
+
+.r_2{
+	width: 80%;
+	margin: auto;
+	height:27%;
+	display: flex;
+}
+
+.what_we_offer_1_tiles_image{
+	width: 100%;
+	height: 100%;
+}
+
+
+.container {
+	width: 90%;
+	height: 90%;
+	position: relative;
+	overflow: hidden;
+	font-weight: bold;
+  }
+  
+  
+  .overlay {
+	position: absolute;
+	margin-top: 3%;
+	bottom: 0;
+	height: 100%;
+	width: 90%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #c8aa5e;
+  }
+  
+  .container:hover .overlay {
+	opacity: 1;
+	overflow: hidden;
+  }
+  
+  .text {
+	color: white;
+	font-size: 25px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 2px;
+	position: absolute;
+	margin-top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+  }
+
+  .product_button {
+	background-color: #c8aa5e; /* Green */
+	border: none;
+	color: white;
+	padding: 16px 37px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	margin: 4px 2px;
+	letter-spacing: 3px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+.products_btn{
+	margin-left: 44%;
+	align-items: center;
+}
+  .button1 {
+	
+	background-color: #c8aa5e; 
+	color: white; 
+	border: 2px solid #c8aa5e;
+  }
+
+  .button1:hover {
+	background-color: white;
+	color: #c8aa5e;
+  }
+
+
+/* ----------------grit_of_slab-------------------------------- */
+.grit_of_slab{
+	width: 100%;
+	height: 595px;
+	padding-top: 250px;
+	background-image: linear-gradient(rgba(100,100,100,0.1),rgba(100,100,100,0.1)),url('../Images/formationslab-location-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+
+	text-align: center;
+	font-size: 55px;
+	color: #fff;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 2px;
+
+}
+/* -----------------service_icons------------------------- */
+.service_icons{
+	width: 100%;
+	height: auto;
+	padding: auto;
+	background-color: #fff;
+}
+
+.service_icons_parent{
+	margin: auto;
+	width: 85%;
+	height: 80%;
+}
+
+.child_1{
+	margin: 5%;
+	width: 100%;
+	height: 40%;
+	display: flex;
+}
+
+.service_icons_box{
+	margin: 5%;
+	width: 100%;
+	height: 20%;
+}
+
+.service_icons_icon{
+	width: 100%;
+	height: 150%;
+}
+
+.service_icons_name{
+	width: 100%;
+	height: 35%;
+	text-align: center;
+	font-size: 23px;
+}
+
+.service_icons_text{
+	width: 100%;
+	height: 60%;
+	margin-top: 3%;
+	text-align: center;
+	line-height: 27px;
+	font-weight: lighter;
+	font-size: 19px;
+}
+
+.service_icons_anchor{
+	margin-top: 2%;
+	text-align: center;
+}
+
+.service_icons_anchor a{
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 24px;
+	letter-spacing: 1px;
+	color: #c9aa5d;
+}
+
+.service_icons_anchor a:hover {
+	color: #e7dab9;
+  }
+
+
+
+
+/* -------------------visit_us------------------------------- */
+.visit_us{
+	width: 100%;
+	height: auto;
+}
+
+.visit_us_images{
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+
+.visit_us_img{
+	width: 38%;
+	height: 100%;	
+}
+.visit_us_img img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+/* --------------what_we_offer_2---------------------------------- */
+.what_we_offer_2{
+	width: 100%;
+	height: auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	overflow: hidden;
+	background-color: #4c4845;
+}
+
+
+.flex_what_we_offer_2{
+	margin: auto;
+	width: 17%;
+	height: auto;
+	letter-spacing: 2px;
+	text-align: center;
+	display: flex;
+}
+.what_we_offer_2_border_under_before{
+	margin-top: 9px;
+	width: 50px;
+	height: 10px;
+	border-bottom: 2px solid #fff;
+}
+
+.what_we_offer_2_border_under_after{
+	margin-top: 9px;
+	width: 50px;
+	height: 10px;
+	border-bottom: 2px solid #fff;
+}
+
+.what_we_offer_2 h6{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: white;
+}
+
+.what_we_offer_2 h1{
+	color: #fff;
+	font-size: 54px;
+	text-align: center;
+	letter-spacing: 3px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	margin-top: 50px;
+}
+
+.what_we_offer_2 p{
+	margin-top: 25px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+.what_we_offer_2_image{
+	margin-top: 50px;
+	margin-left: 180px;
+	width: 85%;
+	height: 740px;
+}
+.what_we_offer_2 img{
+	width: 90%;
+	max-height: 80%;
+}
+
+.what_we_offer_2_image_overlap{
+	margin-top: -740px;
+	margin-left: 180px;
+	width: 85%;
+	height: 740px;
+}
+.what_we_offer_2_image_overlap img{
+	width: 90%;
+	max-height: 80%;
+}
+
+
+.what_we_offer_2_anchor{
+	margin-top: -50px;
+}
+
+.what_we_offer_2_anchor a{
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 24px;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+.what_we_offer_2_anchor a:hover {
+	color: #A5A5A5;
+  }
+/* ---------------story_behind_stone------------------------ */
+.story_behind_stone{
+	width: 100%;
+	height: 770px;
+	padding-top: 100px;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.stone_story{
+	display: flex;
+	width: 900%;
+}
+
+.story_behind_stone h1{
+	color: #c9aa5d;
+	font-size: 54px;
+	text-align: center;
+	letter-spacing: 3px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	margin-top: 50px;
+}
+
+.stone_story_block{
+	margin: auto;
+	width: 750px;
+	height: 400px;
+	display: flex;
+}
+
+.stone_image{
+	width: 45%;
+	height: 100%;
+	
+}
+
+.stone_image img{
+	
+	max-width: 100%;
+	max-height: 100%;
+
+}
+
+
+
+
+.stone_text{
+	width: 55%;
+	height: 100%;	
+}
+
+.stone_text h2{
+	color: black;
+	text-align: left;
+}
+
+.stone_text p{
+	text-align: left;
+}
+
+
+/* --------------who_we_serve------------------------- */
+.who_we_serve{
+	width: 100%;
+	height: auto;
+	padding-top: 150px;
+	background-color: #dddddd;
+}
+
+.flex_who_we_serve{
+	width: 15%;
+	height: auto;
+	margin: auto;
+	letter-spacing: 2px;
+	text-align: center;
+	display: flex;
+}
+
+.what_we_serve_border_under_before{
+	margin-top: 9px;
+	width: 50px;
+	height: 10px;
+	border-bottom: 2px solid black;
+}
+
+.what_we_serve_border_under_after{
+	margin-top: 9px;
+	width: 50px;
+	height: 10px;
+	border-bottom: 2px solid black;
+}
+
+.who_we_serve h6{
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: black;
+}
+
+.who_we_serve_heading{
+	padding: 3%;
+	margin: auto;
+	width:60%;
+	height: auto;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 53px;
+	color: #c9aa5d;
+	text-align: center;
+}
+
+.who_we_serve_staticSlideshow{
+	margin: auto;
+	padding-top: 15px;
+	width: 80%;
+	height: 55%;
+	display: flex;
+}
+
+.who_we_serve_staticSlideshow_1{
+	width: 33%;
+	height: 100%;
+	
+}
+
+.who_we_serve_staticSlideshow_2{
+	width: 33%;
+	height: 100%;
+	
+}
+
+.who_we_serve_staticSlideshow_3{
+	width: 33%;
+	height: 100%;
+	
+}
+
+.slideShow_img{
+	text-align: center;
+	width: 100%;
+	height: 40%;
+}
+
+.slideShow_img img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.slideShow_name{
+	margin-top: 15px;
+	width: 100%;
+	height: auto;
+	font-size: 22px;
+	text-align: center;
+}
+
+.slideShow_txt{
+	margin: auto;
+	padding: 3%;
+	width: 70%;
+	font-size: 19px;
+	font-weight: lighter;
+	text-align: center;
+	letter-spacing: 1px;
+	height: auto;
+}
+
+.who_we_serve_service_icons_anchor{
+	margin-top: 50px;
+}
+
+.who_we_serve_service_icons_anchor a{
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 24px;
+	letter-spacing: 1px;
+	color: black
+}
+
+.who_we_serve_service_icons_anchor a:hover {
+	color: gray;
+  }
+
+
+
+
+
+/* ------------here_what_client_say---------------------- */
+.here_what_client_say{
+	width: 100%;
+	height: 800px;
+	padding-top: 150px;
+	background-color: #c9aa5d;
+}
+
+.here_what_client_say_heading{
+	margin: auto;
+	width:47%;
+	height: auto;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 53px;
+	color: white;
+	text-align: center;
+}
+
+.carousel_text{
+	font-size: 25px;
+	color: #fff;
+	padding-top: 5%;
+	margin: auto;
+	width: 55%;
+	height: 60%;
+	text-align: center;
+}
+
+/* ------------------contact_us---------------------------- */
+.contact_us{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+}
+
+
+.flex_contact_us{
+	padding: 4%;
+	margin-left: 40%;
+	letter-spacing: 2px;
+	text-align: center;
+	display: flex;
+	width: 20%;
+	height: auto;
+}
+.contact_us_1_border_under_before{
+	margin-top: 9px;
+	width: 50px;
+	height: 10px;
+	border-bottom: 2px solid;
+}
+
+.contact_us_1_border_under_after{
+	margin-top: 9px;
+	width: 50px;
+	height: 10px;
+	border-bottom: 2px solid;
+}
+
+.contact_us h6{
+	width: 60%;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: black;
+}
+
+.contact_us h1{
+	width: 50%;
+	color: #c9aa5d;
+	font-size: 54px;
+	text-align: center;
+	letter-spacing: 3px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	margin: auto;
+}
+
+.contact_us_parent_images{
+	margin: auto;
+	width: 80%;
+	padding-top: 5%;
+	height: auto;
+	display: flex;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 24px;
+}
+
+.contact_us_image{
+	width: 33%;
+	height: 20%;
+	margin-left: 5%;
+}
+
+.contact_us_image img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.contact_us_parent_images a{
+	color: black;
+	}
+.contact_us_parent_images a:hover{
+color: #c9aa5d;
+}
+/* ---------------contact_online---------------------- */
+.contact_online{
+	margin-top: 3%;
+	width: 100%;
+	height: auto;
+	padding-left: 14%;
+}
+
+.contact_online h1{
+	color: #c9aa5d;
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.contact_online_text{
+	padding-top: 5%;
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.input_text{
+	border: none;
+}
+
+.contact_online_border{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 75%;
+	border-bottom: 2px solid black;
+}
+.contact_online_border_last{
+	margin-top: 15%;
+	width: 75%;
+	border-bottom: 2px solid black;
+}
+
+.contact_product_button {
+	background-color: #c8aa5e; /* Green */
+	border: none;
+	color: white;
+	padding: 16px 37px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	margin: 4px 2px;
+	letter-spacing: 3px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+
+  .button1 {
+	left:0;
+	margin-top: 50px;
+	background-color: #c8aa5e; 
+	color: white; 
+	border: 2px solid #c8aa5e;
+  }
+
+  .button1:hover {
+	background-color: white;
+	color: #c8aa5e;
+  }
+/* ---------------google_map-------------------------- */
+.google_map{
+	margin-top: 2%;
+	width: 100%;
+	height: 700px;
+	background-color: #878787;
+}
+.google_map_frame{
+	width: 100%;
+	height: 50%;
+}
+/* -------------footer_section--------------------------- */
+.footer_section{
+	width: 100%;
+	height: auto;
+	padding-top: 5%;
+	background-color: #4c4845;
+}
+.footer{
+	width: 100%;
+	display: flex;
+	padding-left: 5%;
+}
+.footer_text{
+	font-family: 'Saira Extra Condensed', sans-serif;
+	margin-left: 6%;
+	width:24%;
+	color: #fff;
+	height: 20%;
+}
+
+.footer_text_heading{
+	font-size: 24px;
+	letter-spacing: 3px;
+}
+.footer_text_address{
+	width: 45%;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+.footer_text_address a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.top_name{
+display: flex;
+}
+.top a{
+	color: #fff;
+	font-size: 24px;
+	letter-spacing: 3px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.top a:hover{
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+.up_sym{
+	margin-top: -3px;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.copyright{
+	padding-left: 10%;
+	margin-top: 3%;
+	color: #fff;
+}
+/* ------------media queries------------------------ */
+
+@media (max-width: 952px){
+	nav ul li a{
+		font-size: 16px;
+	}
+	.checkbtn{
+		display: block;
+	}
+	
+	body{
+		overflow: hidden;
+	}
+	ul{
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background: #fff;
+		top: 80px;
+		left: -100%;
+		transition: all .5s;
+		text-align: center;
+		
+	}
+	nav ul li{
+		display: block;	
+		margin: 50px 0;
+		line-height: 30px;
+		
+	}
+	nav ul li a{
+		font-size: 20px;
+		text-decoration: none;
+		
+	}
+	nav ul li a:hover, nav ul li a.active{
+		background: none;
+		color: #e7dab9;
+		text-decoration: none;
+	}
+	
+	#check:checked ~ ul{
+		left: 0;
+	}
+	
+
+}
