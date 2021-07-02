@@ -18,7 +18,6 @@ nav{
 	text-decoration: none;
 	display: block;
 	top: 0;
-	position: fixed;
 	transition: top 0.3s;
 }
 
