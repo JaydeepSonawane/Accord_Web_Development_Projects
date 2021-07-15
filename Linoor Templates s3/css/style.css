@@ -1,0 +1,542 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* -----------section 1 ---------------- */
+
+.work_showcase{
+  width: 70%;
+  height: auto;
+  margin: auto;
+  font-family: 'Teko', sans-serif;
+}
+
+.work_nav{
+  display: flex;
+}
+
+.work_showcase_title{
+  width: 50%;
+  height: auto;
+  font-size: 50px;
+  font-weight: lighter;
+  text-align: left;
+  /* background-color: aqua; */
+}
+
+.work_showcase_anchors{
+  width: 50%;
+  height: auto;
+  text-align: right;
+  color: black;
+  text-decoration: none;
+  margin: auto;
+  /* background-color: blueviolet; */
+}
+
+.work_showcase_anchors ul{
+  display: flex;
+  flex-direction:row;
+  list-style-type:none;
+}
+
+.work_showcase_anchors ul li{
+  margin-right: 2%;
+  font-size: 24px;
+  margin-left: 2%;
+}
+
+.work_showcase_anchors ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.work_showcase_anchors ul li a:hover{
+  text-decoration:underline;
+  text-decoration-color:#ffaa17;
+}
+
+.fa-square-full{
+color: #ffaa17;
+font-size: 10px;
+}
+
+.work_tiles{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  /* background-color: burlywood; */
+}
+
+.row_tiles{
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.tiles{
+  width: 330px;
+  height: 340px;
+  margin: 2%;
+  /* background-color: chartreuse; */
+}
+
+.tiles img{
+  max-width: 100%;
+  max-height: 100%;
+  filter: grayscale(100%);
+  border-radius: 8px;
+}
+
+.tiles img:hover{
+  filter: grayscale(0%);
+}
+/* -----------section - 2--------------- */
+
+.projects_status{
+  width: 100%;
+  height: auto;
+  margin-top:10%;
+  font-family: 'Teko', sans-serif;
+  overflow: hidden;
+}
+
+.container{
+  width: 100%;
+  height: 70vh;
+  background-image: url('../images/image-1.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  z-index: 0;
+}
+
+.numbers_section{
+  width: 60%;
+  display: flex;
+  margin: auto;
+  text-align: center;
+}
+
+.numbers_count{
+  width: 250px;
+  height: 20vh;
+  color: #fff;
+  padding-top: 8%;
+  line-height: 50px;
+  letter-spacing: 1px;
+  border-right: 1px solid gainsboro;
+}
+.numbers_count:hover{
+  border-top: 4px solid #ffaa17;
+}
+
+.br_no{
+   border: none;
+}
+
+.numbers_count a{
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.numbers_count a h1:hover{
+  text-decoration: underline;
+}
+
+.numbers_count a h2:hover{
+  text-decoration: underline;
+}
+
+.numbers_count h1{
+  font-size: 80px;
+}
+
+.numbers_count h2{
+  font-size: 20px;
+}
+
+.messages{
+  width: 100%;
+  height: auto;
+  margin-top: 8%;
+  text-align: center;
+  /* background-color: aqua; */
+  display: flex;
+  
+}
+
+.half_left{
+  width: 45%;
+  height: auto;
+  margin: auto;
+  /* background-color: aqua; */
+}
+
+.half_right{
+  width: 55%;
+  height: auto;
+  margin: auto;
+  padding-left: 1%;
+  padding: 1%;
+  
+  /* background-color: brown; */
+}
+
+.commit{
+  width:60%;
+  height:20vh;
+  margin: auto;
+  font-size: 40px;
+  padding: 2%;
+  border-radius:5px;
+  text-align: center;
+  background-color: #ffaa17;
+}
+
+.commit a{
+  text-decoration: none;
+  color: black;
+}
+
+.commit a:hover{
+  text-decoration: underline;
+}
+
+.trust{
+  width: 100%;
+  height: 23vh;
+  font-size: 70px;
+  border-radius:5px;
+  padding-top: 1%;
+  
+  text-align: center;
+  line-height: 80px;
+  background-color: #fff;
+}
+
+.trust a{
+  text-decoration: none;
+  color: black;
+}
+
+.trust a:hover{
+  text-decoration: underline;
+}
+/* -------------section 3------------------ */
+.msg_upabove_desc{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 4%;
+}
+
+.upabove_container{
+  display: flex;
+}
+
+.upabove_half_left{
+  width: 30%;
+  height: auto;
+  margin: auto;
+  font-family: 'Teko', sans-serif;
+  /* background-color: rgb(122, 131, 112); */
+}
+
+.upabove_half_left_1{
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  cursor: pointer;
+  border-bottom: 2px solid lightslategray;
+}
+
+
+.upabove_left_text a{
+  text-decoration: none;
+}
+
+.upabove_left_text h3{
+  color: lightslategray;
+}
+
+.upabove_half_left_1 a:hover{
+  text-decoration: underline;
+}
+
+.upabove_left_text h3{
+color: lightslategray;
+
+}
+
+.dot_num {
+  width: 40px;
+  height: 40px;
+  line-height: 35px;
+  border-radius: 50%;
+  font-size: 25px;
+  margin-top: 1%;
+  margin-right: 3%;
+  
+  text-align: center;
+  background: #ffecca
+}
+
+.dot_num a{
+  text-decoration: none;
+  color: #ffaa17;
+
+}
+
+.dot_num:hover{
+  background-color: lightslategray;
+}
+
+.dot_num a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.upabove_half_right{
+  width: 50%;
+  height: auto;
+  font-family: 'Rubik', sans-serif;
+  /* background-color: #ffc1a2; */
+}
+
+.upabove_right_p{
+  width: 70%;
+  height: auto;
+  margin: auto;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  /* background-color: aqua; */
+}
+
+.upr_img_features{
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin: 5%;
+  /* background-color: blue; */
+}
+
+.upr_img{
+  width: 45%;
+  height: 23vh;
+  margin: auto;
+  /* background-color: cadetblue; */
+}
+
+.upr_img img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+
+}
+
+.upr_features{
+  width: 60%;
+  height: 23vh;
+  margin: auto;
+  /* background-color: crimson; */
+}
+
+.upr_features ul{
+list-style-type:none;
+}
+
+.upr_features ul li{
+  line-height: 40px;
+  font-size: 16px;
+  
+}
+
+.fa-check{
+  color: #ffaa17;
+  margin: auto;
+}
+/* -----------------section 4------------------------ */
+.expert_team{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 4%;
+  font-family: 'Teko', sans-serif;
+}
+
+.meet_name{
+  width: 60%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  font-size:70px;
+}
+
+.team_carsloue{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+}
+
+.member{
+  width: 28%;
+  height: 60vh;
+  margin-right: 13px;
+  margin-left: 13px;
+  /* background-color: aquamarine; */
+}
+
+.last_mem_name{
+  
+}
+
+.member_img{
+  width: 100%;
+  height: 45vh;
+  border-radius: 8px;
+  /* background-color: chartreuse; */
+}
+
+.member_img img{
+  max-height: 100%;
+  min-width: 100%;
+  filter: grayscale(100%);
+}
+
+.member_name{
+  width: 100%;
+  height: 15vh;
+  padding: 2%;
+  text-align: center;
+  line-height: 35px;
+  /* background-color: darkcyan; */
+}
+
+.member_name h1{
+  font-size: 24px;
+  color:black;
+}
+
+.member_name h3{
+  font-size: 16px;
+  color: grey;
+}
+
+.social_media_handle{
+  text-align: center;
+  margin: auto;
+  display: none;
+  z-index: 999;
+}
+
+.member_img img:hover + .social_media_handle{
+  display: block;
+  margin-top: -8%;
+}
+.member_img img:hover{
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+
+
+
+/* <!-- --------------section 5---------------------- --> */
+
+.great_things{
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+  overflow: hidden;
+  font-family: 'Teko', sans-serif;
+}
+
+.great_things_container{
+  width: 100%;
+  height: 90vh;
+  top: 0; left: 0; 
+  background-image: url('../images/image-2.jpg');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  margin: auto;
+  z-index: 0;
+}
+
+.great_things_text{
+  width: 50%;
+  height: auto;
+  margin: auto;
+  padding-top: 10%;
+  top: 50%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.text_one{
+  color: #fff;
+}
+
+.white{
+  color: #fff;
+}
+
+.text_two{
+  color: #ffaa17;
+  
+}
+/* <!-- ---------------------strip---------------------- --> */
+.strip{
+  width: 100%;
+  height: 5vh;
+  overflow: hidden;
+  margin:5%;
+  font-family: 'Rubik', sans-serif;
+}
+
+.strip_envato{
+  display: flex;
+}
+
+.envato_text{
+  color: lightslategray;
+  font-size: 30px;
+  margin-left: 4%;
+  margin-right: 3.7%;
+}
+
+.envato_text:hover{
+  color: black;
+  cursor: pointer;
+}
+
+/* ---------media queries------- */
+
+@media screen and (max-width: 900px) {
+  .work_tiles{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    /* background-color: burlywood; */
+  }
+  
+  .row_tiles{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 3%;
+  }
+}
+
+
+
+
