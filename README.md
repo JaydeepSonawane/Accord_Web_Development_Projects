@@ -7,4 +7,5 @@ This project is assigned by Accord Web development:
 Do visit : https://jaydeepsonawane.github.io/Accord_Web_Development_Projects//Formation%20-%20Clone%20website/
 
 2) Linoor Templates :
+Do visit : https://jaydeepsonawane.github.io/Accord_Web_Development_Projects/Linoor%20Templates%20s3/
 
