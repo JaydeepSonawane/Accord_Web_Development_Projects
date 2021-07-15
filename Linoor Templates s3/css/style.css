@@ -67,6 +67,7 @@ font-size: 10px;
   width: 100%;
   height: auto;
   margin: auto;
+  display: block;
   /* background-color: burlywood; */
 }
 
@@ -581,21 +582,22 @@ transform:translate(0px, -80px);
 
 /* ---------media queries------- */
 
-@media screen and (max-width: 900px) {
+@media (max-width: 992px) {
+  
   .work_tiles{
-    width: 100%;
-    height: auto;
-    margin: auto;
     display: flex;
-    /* background-color: burlywood; */
+  }
+
+  .row_tiles{
+    display: block;
+  }
+}
+
+@media (max-width: 481px) {
+  .work_tiles{
+    display: block; 
   }
   
-  .row_tiles{
-    width: 100%;
-    height: auto;
-    margin: auto;
-    margin-top: 3%;
-  }
 }
 
 
