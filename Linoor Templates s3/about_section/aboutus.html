@@ -1,0 +1,2253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            About Us Page
+        </title>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=0.86, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.min.css" integrity="sha512-QfDd74mlg8afgSqm3Vq2Q65e9b3xMhJB4GZ9OcHDVy1hZ6pqBJPWWnMsKDXM7NINoKqJANNGBuVRIpIJ5dogfA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+        /* ---------main div css----------------- */
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Teko', sans-serif;
+        }
+        .section_one_images_box{
+            width: 100%;
+            height: auto;
+            padding-top: 5%;
+            /* background-color: crimson; */
+            
+        }
+
+        .one_main_div{
+            width: 100%;
+            height: auto;
+            display: flex;
+        }
+        .one_web_main{
+            width: auto;
+            height: auto;
+            margin: auto;
+        }
+
+        .best_digital_main{
+            width: auto;
+            height: auto;
+            margin: auto;
+        }
+
+        .one_web{
+            width: 500px;
+            height: 450px;
+            /* background-color: aqua; */
+            margin: auto;
+            
+        }
+
+        .best_digital{
+            width: 500px;
+            height: 450px;
+            /* background-color:black; */
+            margin: auto;
+            
+
+        }
+        .one_web img{
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 8px;
+            filter: grayscale(100%);
+        }
+        .one_web img:hover{
+            filter: grayscale(0%);
+        }
+          .best_digital img{
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 8px;
+            filter: grayscale(100%);
+        }
+        .best_digital img:hover{
+            filter: grayscale(0%);
+        }
+
+        .desc{
+            width: 320px;
+            height: 170px;
+            background-color: #ffaa18;
+            word-wrap: break-word;
+            margin-left: 1%;
+            text-align: left;
+            border-radius: 8px;
+            transform: translate(-20px,-197px);
+        }
+        .desc_text h1{
+            font-size: 30px;
+            color: #222429;
+            padding: 9%;
+            /* font-weight: 300; */
+            
+        }
+        .playBtn{
+            
+            width: 50px;
+            height: 40px;
+            color: cornsilk;
+            text-align: center;
+            padding-top: 14px;
+            padding-bottom: -2px;
+            padding-left: 1px;
+            padding-right: 1px;
+            font-size: 20px;
+            font-weight: lighter;
+            border-radius: 50%;
+            background-color: #222429;
+            transform: translate(250px,-78px);
+
+        }
+        .playBtn:hover{
+            cursor: pointer;
+        }
+        /* .fa-greater-than{
+          color: cornsilk;
+        } */
+
+        /* -----------section 2--------------- */
+        .customer_feedback_section{
+            width: 100%;
+            height: auto;
+            background-color: #E1E1E1;
+            padding-bottom: 6%;
+            padding-top: 3%;
+        }
+        .customer_feedback_section_heading{
+            width: 85%;
+            height: auto;
+            margin: auto;
+        }
+        .customer_feedback_section_heading h1{
+            font-size: 70px;
+            
+
+        }
+        .fa-square{
+            color: orange;
+            font-size: 15px;
+        }
+        
+
+
+
+#slider{
+  margin:auto;
+  width:35%;
+  overflow:hidden;
+/*   display:flex; */
+}
+
+.slides{
+  overflow:hidden;
+  margin:auto;
+  display:flex;
+  animation-name:fade;
+  animation-duration:4s;
+}
+@keyframes fade{
+  0%{opacity: 0;}
+  25%{opacity: 0.3;}
+  50%{opacity: 0.7;}
+  100%{opacity: 1;}
+}
+
+
+.carsoule_element{
+  width:90%;
+  height:auto;
+  background-color:#fff;
+  margin:10px;
+  border-radius: 8px;
+  padding: 3%;
+  display:block;
+}
+
+.carsoule_element:hover{
+    background-color: orange;
+
+}
+
+#dot{
+  margin:0 auto;
+  text-align:center;
+}
+.dot{
+  display:inline-block;
+  border-radius:50%;
+  background:#B4B4B4;
+  padding:5px;
+  margin:5px 5px;
+}
+
+.active{
+  border:2px solid orange;
+  background:#fff;
+  padding:3px;
+}
+
+.car_top{
+    width: 88%;
+    height: 80px;
+    text-align: left;
+    display: flex;
+    /* background-color: paleturquoise; */
+    margin: auto;
+}
+
+.image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.image img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+.car_top_name{
+    width: 60%;
+    padding: 3%;
+    border: none;
+}
+.car_top_name h2{
+    letter-spacing: 1px;
+}
+.car_top_name h4{
+    letter-spacing: 1px;
+    color: orange;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.carsoule_element:hover .car_top_name h4{
+    color: black;
+}
+.colons{
+    text-align: right;
+}
+.fa-quote-left{
+    color: orange;
+}
+.carsoule_element:hover .fa-quote-left{
+    color: black;
+}
+.car_desc{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 6%;
+    padding-bottom: 9%;
+    /* background-color: orangered; */
+}
+.car_desc h2{
+    font-weight: lighter;
+    font-size: 17px;
+    font-family: 'Rubik', sans-serif;
+}
+/* ------------------section 3----------- */
+.various_counts_sections{
+    width: 100%;
+    height: auto;
+    background-color: #2D2D2D;
+    padding-top: 0.1%;
+    padding-bottom: 6%;
+}
+.main_number_counts{
+    width: 70%;
+    height: auto;
+    /* background-color: black; */
+    margin: auto;
+    display: flex;
+}
+.num_counts_span{
+    display: flex;
+
+}
+.num_counts{
+    width: 265px;
+    height: auto;
+    margin: auto;
+    padding-top: 10%;
+    /* background-color: chartreuse; */
+    border-right: 1px solid #E1E1E1;
+}
+.num_count_last{
+    border-right: none;
+}
+.num_counts:hover{
+    border-top: 4px solid orange;
+    transform: translate(0px,-3px);
+}
+.num_counts h1{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-weight: lighter;
+
+}
+.num_counts h2{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-weight: lighter;
+}
+/* ---------section 4---------------------- */
+.great_things_section{
+    width: 100%;
+    height: auto;
+    background-image: url('about_images/img_4.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+.great_things_main{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding: 5%;
+    padding-top: 8%;
+}
+.circle_logo_main{
+    width: 100%;
+    height: auto;
+}
+.circle_logo{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: #FFAA2A;
+}
+.great_things_text h1{
+    font-size: 70px;
+    text-align: center;
+}
+.great_things_white_text{
+    color: #fff;
+}
+.great_things_orange_text{
+    color: orange;
+}
+/* --------------section 5-------------------- */
+.best_design_agency_solutions_section{
+    width: 100%;
+    height: auto;
+    background-color: #E1E1E1;
+}
+.best_design_agency_main_div{
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    padding:2%;
+}
+.best_design_agency_left_side{
+    width: 50%;
+    height: auto;
+    /* background-color: palegreen; */
+}
+
+.best_design_agency_left_heading{
+    width: 100%;
+    height: auto;
+}
+.best_design_agency_left_heading h1{
+    font-size: 70px;
+    font-weight: lighter;
+}
+.best_design_agency_left_heading_dot{
+    color: orange;
+    font-size: 70px;
+}
+.best_design_agency_left_buttons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+.best_design_agency_left_buttons_span{
+    width: auto;
+    height: auto;
+}
+.best_design_agency_left_buttons_span_btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    border-top:3px solid orange;
+    margin: 30px;
+    font-size: 18px;
+    background-color: white;
+}
+.best_design_agency_left_buttons_span_btn:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.best_design_agency_left_desc{
+    width: 80%;
+    height: auto;
+    font-size: 18px;
+    margin: auto;
+    text-align: left;
+    padding: 2%;
+    padding-bottom: 5%;
+    font-family: 'Rubik', sans-serif;
+}
+.best_design_agency_right_side{
+    width: 50%;
+    height: auto;
+    /* background-color: paleturquoise; */
+}
+.best_design_agency_right_desc{
+    width: 80%;
+    height: auto;
+    font-size: 18px;
+    padding: 2%;
+    font-family: 'Rubik', sans-serif;
+
+}
+.best_design_agency_right_down{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.best_design_agency_right_image{
+    width: 35%;
+    height: auto;
+}
+.best_design_agency_right_image_div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.best_design_agency_right_image_div img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+.best_design_agency_right_ticks{
+    width: 50%;
+    height: auto;
+    text-align: left;
+    /* padding: 2%; */
+}
+.best_design_agency_right_ticks h3{
+    padding-top: 2%;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'Rubik', sans-serif;
+    line-height: 30px;
+}
+.fa-check{
+    color: orange;
+}
+/* ---------section 6--------------------- */
+.meet_expert_team_section{
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+}
+.meet_expert_team_section_heading{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    
+    /* background-color: palegoldenrod; */
+}
+.meet_expert_team_section_heading h1{
+    font-size: 70px;
+    text-align: center;
+    font-weight: lighter;
+}
+.meet_expert_team_section_heading_dot{
+    color: orange;
+    font-size: 90px;
+}
+.meet_expert_team_section_carsoule{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    /* background-color: peru; */
+    display: flex;
+}
+.expert_team_carsoule_element{
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+.expert_team_carsoule_element_member{
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    /* background-color: palegreen; */
+}
+.expert_team_carsoule_element_member_image{
+    width: 100%;
+    height: 330px;
+    /* background-color: palevioletred; */
+}
+.expert_team_carsoule_element_member_image img{
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    filter: grayscale(100%);
+    border-radius: 8px;
+    z-index: 0;
+}
+.expert_team_carsoule_element_member_image img:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+.expert_team_carsoule_element_member_social_media{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: none;
+    opacity: 0;
+    transition: transform 400ms ease-in-out;
+    
+}
+.font_awe{
+    margin: 10px;
+    width: 45px;
+    height: 37px;
+    padding-top: 1.5%;
+    background-color: white;
+    border-radius: 50%;
+}
+.font_awe:hover{
+    background-color: orange;
+}
+
+.expert_team_carsoule_element_member:hover .expert_team_carsoule_element_member_social_media{
+    opacity: 1;
+    transform:translate(0px, -80px);
+    display: block;
+    cursor: pointer;
+}
+.expert_team_carsoule_element_member_name_desg{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.expert_team_carsoule_element_member_name_desg h1{
+    font-size: 25px;
+    margin: auto;
+}
+.expert_team_carsoule_element_member_name_desg h3{
+    font-size: 16px;
+    margin: auto;
+}
+.expert_team_carsoule_element_member:hover .expert_team_carsoule_element_member_name_desg{
+    display: block;
+    transform: translateY(-62px);
+}
+/* ----------------section 7------------------ */
+.with_clients_section{
+    width: 100%;
+    height: auto;
+    padding-top: 3%;
+    background-color: rgb(212, 212, 212);
+}
+.with_clients_section_main{
+    display: flex;
+    padding: 5%;
+}
+.with_clients_section_left{
+    width: 35%;
+    height: auto;
+    /* padding: 6%; */
+}
+.with_clients_section_left h1{
+    font-size: 70px;
+    font-weight: lighter;
+}
+.with_clients_section_left_dot{
+    color: orange;
+}
+.with_clients_section_right{
+    width: 47%;
+    height: auto;
+    /* padding: 8%; */
+}
+.with_clients_section_right_span{
+    margin: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/* -------Media Queries-------------------- */
+@media (max-width:567px){
+  #slider{
+    width:100%;
+  }
+  
+}
+        /* ------css for 992px--------------------- */
+        @media (max-device-width: 992px){
+            
+        }
+
+        /* --------css for 840px------------------------ */
+        @media (max-device-width: 840px){
+            .one_main_div{
+                display: block;
+            }
+            .main_number_counts{
+                display: block;
+            }
+            .num_counts{
+            border-bottom: 1px solid #E1E1E1;
+            border-right: none;
+        }
+        .great_things_text h1{
+            font-size: 45px;
+        }
+        .best_design_agency_main_div{
+            display: block;
+        }
+        .best_design_agency_left_heading h1{
+            font-size: 50px;
+        }
+        .best_design_agency_left_side{
+            width: 100%;
+        }
+        .best_design_agency_right_side{
+            width: 95%;
+            padding: 2%;
+        }
+        .best_design_agency_left_buttons{
+            margin: auto;
+        }
+        .best_design_agency_left_buttons_span_btn{
+            width: 110px;
+            height: 50px;
+            border-radius: 8px;
+            border: none;
+            border-top:3px solid orange;
+            margin: 15px;
+            font-size: 16px;
+            background-color: white;
+        }
+        .best_design_agency_right_side{
+            width: 100%;
+        }
+        .best_design_agency_right_down{
+            display: block;
+            
+        }
+        .best_design_agency_right_image{
+            width: 100%;
+            margin: auto;
+        }
+        .meet_expert_team_section_heading h1{
+            font-size: 45px;
+        }
+        .expert_team_carsoule_element_member_image{
+            width: 100%;
+            height: auto;
+        }
+        .expert_team_carsoule_element_member{
+            width: 270px;
+            height: auto;
+        }
+        .expert_team_carsoule_element_member_name_desg h1{
+             font-size: 18px;
+             margin: auto;
+        }
+        .expert_team_carsoule_element_member_name_desg h3{
+             font-size: 12px;
+             margin: auto;
+        }
+        .font_awe{
+            margin: 1px;
+            width: 20px;
+            height: 15px;
+            padding-top: 0.6%;
+            background-color: white;
+            border-radius: 50%;
+            font-size: 10px;
+        }
+        .meet_expert_team_section_carsoule{
+            width: 100%;
+        }
+        .expert_team_carsoule_element_member{
+            margin: 5px;
+        }
+        
+        .expert_team_carsoule_element_member:hover .expert_team_carsoule_element_member_name_desg{
+            display: block;
+            transform: translateY(-25px);
+        }
+        .with_clients_section_main{
+            display: block;
+        }
+        .with_clients_section_left{
+            width: 90%;
+            height: auto;
+            /* padding: 6%; */
+        }
+        .with_clients_section_right{
+            width: 70%;
+            height: auto;
+            text-align: center;
+            margin: auto;
+            /* padding: 8%; */
+        }
+        .with_clients_section_left h1{
+            font-size: 35px;
+            font-weight: lighter;
+         }
+            .with_clients_section_right_span{
+            margin: 45px;
+            font-family: 'Rubik', sans-serif;
+            font-size: 20px;
+            
+        }
+
+
+    }
+
+
+
+
+
+        /* ------------css for 440px--------------- */
+        @media (max-device-width: 440px){
+              .one_web img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .one_web{
+            width: 280px;
+            height: 240px;
+        }
+
+        .best_digital_main{
+            margin-top: -10%;
+        }
+
+        .best_digital{
+            width: 280px;
+            height: 240px;
+        }
+          .best_digital img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .desc{
+            width: 175px;
+            height: 90px;
+            transform: translate(0px,-90px);
+        }
+        .desc h1{
+            font-size: 20px;
+            padding: 7%;
+            font-weight: lighter;
+        }
+        .playBtn{
+            
+            width: 30px;
+            height: 20px;
+            color: cornsilk;
+            text-align: center;
+            padding-top: 9px;
+            padding-bottom: 2px;
+            padding-left: 1px;
+            padding-right: 1px;
+            font-size: 10px;
+            font-weight: lighter;
+            border-radius: 50%;
+            background-color: #222429;
+            /* transform: translate(250px,-75px); */
+
+        }
+        .playBtn{
+            transform: translate(130px,-30px);
+            
+        }
+        .customer_feedback_section_heading h1{
+            font-size: 45px;
+        }
+       
+        .fa-quote-left{
+            font-size: 40px;
+        }
+        .car_desc{
+            padding-top: 10%;
+        }
+        .main_number_counts{
+            width: 100%;
+            display: block;
+        }
+        .num_counts_span{
+              display: block;
+        }
+        .num_counts{
+            border-bottom: 1px solid #E1E1E1;
+            border-right: none;
+        }
+        .num_counts h1{
+            font-size: 50px;
+        }
+        .num_counts h2{
+            font-size: 12px;
+        }
+        .num_count_last{
+            border-bottom: none;
+        }
+        .great_things_section{
+            width: 100%;
+            height: auto;
+            /* background-size:50% 50%; */
+            background-image: url('about_images/img_4.jpg');
+            background-position:center;
+            background-repeat: no-repeat;
+            background-attachment:fixed;
+    }
+        .circle_logo{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+        .great_things_text h1{
+            font-size: 25px;
+        }
+        .best_design_agency_left_heading{
+            padding-top: 2%;
+        }
+        .best_design_agency_left_heading h1{
+            font-size: 35px;
+            line-height: 30px;
+        }
+        .best_design_agency_left_buttons{
+            display: block;
+        }
+        .best_design_agency_left_buttons_span_btn{
+            width: 230px;
+            height: 50px;
+            margin: 10px;
+        }
+        .best_design_agency_left_desc{
+            width: 90%;
+            font-size: 14px;
+        }
+        .best_design_agency_right_desc{
+            font-size: 14px;
+        }
+        .best_design_agency_right_ticks h3{
+            line-height: 20px;
+            font-size: 14px;
+        }
+        .meet_expert_team_section_heading h1{
+            font-size: 30px;
+            line-height: 20px;
+        }
+        .font_awe{
+            margin: 10px;
+            width: 45px;
+            height: 37px;
+            padding-top: 1.5%;
+            background-color: white;
+            border-radius: 50%;
+            font-size: 30px;
+    }
+  
+    .meet_expert_team_section{
+       width: 100%;
+       height: auto;
+       padding-top: 10%;
+    }
+        .meet_expert_team_section_carsoule{
+            display: block;
+        }
+        .with_clients_section_left{
+    width: 90%;
+    height: auto;
+    /* padding: 6%; */
+}
+.with_clients_section_right{
+    width: 90%;
+    height: auto;
+    /* padding: 8%; */
+}
+        .with_clients_section_left h1{
+    font-size: 35px;
+    font-weight: lighter;
+    }
+    .with_clients_section_right_span{
+    margin: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    }
+}
+/* ----------navbar css------------ */
+
+.header_section{
+    width: 100%;
+    height: 100vh ;
+    background-image: url('about_images/newbg2.jpg');
+    background-repeat: no-repeat;    
+  }
+  
+  #navbar_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;
+    background-color: transparent;
+    /* background-color: red; */
+    border-bottom: 1px solid gray;
+  }
+  
+  .y_logo {
+    cursor: pointer;
+  }
+  .y_logo img{
+    width: 90px;
+    height: 90px;
+    margin-left: -20%;
+  }
+  
+  .nav__links a,
+  .cta,
+  .overlay__content a {
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: color 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: orange;
+  }
+  
+  .cta {
+    padding: 9px 25px;
+    /* background-color: rgba(0, 136, 169, 1); */
+    border: none;
+    /* border-radius: 50px; */
+    /* cursor: pointer; */
+    transition: background-color 0.3s ease 0s;
+  }
+  
+  
+  /* .cta:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+  } */
+  
+  /* Mobile Nav */
+  
+  .menu {
+    display: none;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #24252a;
+    overflow-x: hidden;
+    transition: width 0.5s ease 0s;
+  }
+  
+  .overlay--active {
+    width: 100%;
+  }
+  
+  .overlay__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: color 0.3s ease 0s;
+  }
+  
+  .overlay a:hover,
+  .overlay a:focus {
+    color: orange;
+  }
+  .overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #edf0f1;
+  }
+  
+  @media (max-width:450px){
+    .overlay a {
+      font-size: 20px;
+    }
+    .overlay .close {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .nav__links,
+    .cta {
+      display: none;
+    }
+    .menu {
+      display: initial;
+    }
+  } 
+  
+  .welcome_text{
+    margin-left: 5%;
+    margin-top: 12%;
+    color: white;
+    width: 50%;
+    height: auto;
+  }
+  
+  .welcome_text h5{
+    font-size: 24px;
+  }
+  
+  .welcome_text h1{
+    font-size: 90px;
+  }
+  
+  .discover_btn button{
+    width: 20%;
+    height: 50px;
+    background-color: orange;
+    padding: 5px;
+    color: black;
+    border-radius: 8px;
+  }
+  
+  .discover_btn button:hover{
+    background-color: black;
+    color: orange;
+    cursor: pointer;
+  }
+  
+  .social_media{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: orange;
+    transform: rotate(-90deg);
+  }
+  
+  .social_media h4{
+    margin: 10px;
+  }
+  
+  .main_div{
+    display: flex;
+  }
+  .menu {
+    display: none;
+  }
+  
+  .left_curve{
+    margin-top: -10%;
+  }
+  .right_curve{
+    margin-top: 7%;
+    margin-left: 55%;
+  }
+  
+  .date{
+    margin-left: -70%;
+    font-size: 10px;
+    margin-top: 1%;
+    color: white;
+    display: flex;
+    /* flex-direction: column; */
+    writing-mode: vertical-rl;
+  }
+  .social{
+    margin-left: -1%;
+    font-size: 10px;
+    margin-top: 25%;
+    color: white;
+    display: flex;
+    /* flex-direction: column; */
+    writing-mode: vertical-rl;
+  }
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #24252a;
+    overflow-x: hidden;
+    transition: width 0.5s ease 0s;
+  }
+  
+  .overlay--active {
+    width: 100%;
+  }
+  
+  .overlay__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: color 0.3s ease 0s;
+  }
+  
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #0088a9;
+  }
+  .overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #edf0f1;
+  }
+  
+  @media (max-device-width: 992px){
+    .navbar{
+        border:none;
+    }
+    .bars{
+    display: block;
+  
+    }
+    .welcome_text{
+    margin-left: 20%;
+    margin-top: -1%;
+    }
+    .nav_elements{
+        display: none;
+    }
+    .call{
+        display: none;
+    }
+    .fa-bars{
+        text-align: right;
+    }
+   
+   .sidebar{
+     position: fixed;
+     top: 0px;
+     left: -50%;
+     transition: left 0.3s ease-in-out;
+    }
+  
+    .left_curve{
+        display: none;
+    }
+    .right_curve{
+        display: none;
+    }
+    .date{
+        display: none;
+    }
+    .social{
+        display: none;
+    }
+    .menu {
+      display: initial;
+    }
+  
+  }
+  
+  @media (max-device-width: 480px){
+    .welcome_text{
+    margin-left: 15%;
+    margin-top: 5%;
+    }
+    .welcome_text h5{
+      font-size: 20px;
+    }
+    
+    .welcome_text h1{
+      font-size: 50px;
+    }
+    .discover_btn button{
+      width: 50%;
+      height: 50px;
+      background-color: orange;
+      padding: 5px;
+      color: black;
+      border-radius: 8px;
+    }
+    .overlay a {
+      font-size: 20px;
+    }
+    .overlay .close {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+    .date{
+        display: none;
+    }
+    .social{
+        display: none;
+    }
+  
+  }
+
+  .center-head {
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+  }
+  .servi-head1{
+      font-size: 80px;
+  }
+  .servi-head2{
+    font-size: 30px;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  a:hover, i:hover{
+    color: orange;
+  }
+
+  
+/*------------------footer css-------------------------*/
+.quote{
+    
+   
+    height:80vh;
+    width: 100%;
+        background-image:url("./image-2.jpg");
+        overflow: hidden;
+    background: #000000;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(22, 22, 24, 0.9), rgba(39, 35, 36, 0.9)), url("./image-2.jpg");
+    position: relative;
+    background-size:cover;
+    
+    
+    }
+    .logo{
+      position: absolute;
+      top: 35%;  
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+    .logo img{
+        width: 70px;
+    }
+    .headline{
+        position: absolute;
+        color: white;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 3rem;
+        bottom: 8rem;
+        text-transform:uppercase;
+        text-align: center;
+        font-family:'teko';
+    
+    }
+    .div{
+        background-color: #dae4ee;
+        
+    
+    
+    }
+    .flex-wrap{
+      
+       font-family: teko;
+       padding-left: 2rem;
+    width: 100%;
+    
+    }
+    .btn-1{
+        font-size: 1rem;
+        padding: 0.5rem 0.5rem;
+        margin-top: 1.5rem;
+        border-radius: 0.3rem;
+        justify-content: space-evenly;
+        outline: none;
+        border: none;
+        cursor: pointer;
+       font-family:  'Rubik', sans-serif;
+     margin-right: 2rem;
+    }
+    .info>p{
+       padding-top: 4.5rem;
+       padding-right: 3rem;
+    }
+    .content{
+        padding-left: 2rem;
+        padding-right: 3rem;
+    }
+    .content,.info{
+        padding-top: 1.5rem;
+        font-size: 1em;
+        line-height: 1.5rem;
+        font-family:  'Rubik', sans-serif;
+    }
+    .btn-1:hover{
+    background-color: rgb(247, 139, 100);
+    }
+    .btn-1:active{
+        background-color: yellow;
+    }
+    .div{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      
+    }
+    .png img{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    background-size: contain;
+    }
+    .flex{
+        display: flex;
+        /* justify-content:space-between; */
+        align-items: center;
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+        font-size: 0.5rem;
+       
+    }
+    
+    .tick_content{
+        display: flex;
+        font-family:  'Rubik', sans-serif;
+       
+    }
+    
+    .left{
+        border: 2px solid black;
+        margin-bottom: 4rem;
+        display: flex   ;
+    }
+    .name{
+        border: 2px solid red;
+    }
+    .logos{
+        display: flex;
+        
+        margin-top: 3rem;
+      
+    }
+    .kal_facebook:hover{
+        transform: scale(1.5);
+        transition: 0.5s ease-in-out;
+    }
+    .kal_instagram:hover{
+        transform: scale(1.5);
+        transition: 0.5s ease-in-out;
+    }
+    .kal_twitter:hover{
+        transform: scale(1.5);
+        transition: 0.5s ease-in-out;
+    }
+    .kal_pinterest:hover{
+        transform: scale(1.5);
+        transition: 0.5s ease-in-out;
+    }
+    .explore{
+     color: whitesmoke;
+    }
+    .list{
+        color: whitesmoke;
+        padding-top: 2rem;
+        line-height: 1.8rem;
+        font-size: 1.1rem;
+        font-family: 'Oswald';
+        font-weight: 900;
+        letter-spacing: 2px;
+    }
+    .list>ul{
+        list-style: none;
+    }
+    .address{
+        display: flex;
+        align-items: center;
+        color: whitesmoke;
+        padding-top: 2rem;
+    }
+    .location-png img{
+        width: 30px;
+       
+    }
+    .location-info{
+        font-size: 1rem;
+        padding-left: 1rem;
+        font-family: 'Oswald';
+        font-weight: 900;
+        letter-spacing: 2px;
+    }
+    .telephone{
+        display: flex;
+        align-items: center;
+        padding-top: 1rem;
+    }
+    .number{
+        color: whitesmoke;
+        padding-left: 1rem;
+        font-size: 1.1rem;
+        font-family: 'Oswald';
+        font-weight: 900;
+        letter-spacing: 2px;
+    }
+    .number:hover{
+        text-decoration: underline solid  orangered;
+        color: orangered;
+    }
+    .phone-logo{
+        width: 30px;
+        
+    }
+    
+    .mail{
+        display: flex;
+        align-items: center;
+        padding-top: 1rem;
+    }
+    .Email-png img{
+        width: 30px;
+    }
+    .email-info{
+      color: whitesmoke;
+      padding-left: 1rem;
+      font-size: 1.1rem;
+      font-family: 'Oswald';
+      font-weight: 900;
+      letter-spacing: 2px;
+    }
+    .email-info:hover{
+        color: orangered;
+        text-decoration: underline orangered solid;
+    
+    }
+    .newsletter>h2{
+        color: whitesmoke;
+        letter-spacing: 1.5px;
+    }
+    .letterbox{
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 4rem;
+    }
+    .letterbox img{
+        align-items: center;
+      
+        width: 40px;
+        
+    }
+    .letterbox>input{
+        height: 2rem;
+        width: 13rem;
+        border-radius: 0.3rem;
+        padding-left: 0.5rem;
+        font-size: 1rem;
+    }
+    .letterbox>input:focus{
+        outline: none;
+    }
+    .contactUs{
+        padding-top: 1.5rem;
+    
+       
+    }
+    .contactUs>button{
+        width: 8rem;
+        height: 2rem;
+        border-radius: 0.3rem;
+        background-color: #e85d04;
+        font-family: 'Oswald';
+        font-weight: 900;
+        letter-spacing: 2px;
+        color: whitesmoke;
+        font-size: 1rem;
+    }
+    @media  screen and (max-width:480px)
+    {
+        .logo img{
+            margin-top: 4rem;
+        }
+    
+    .headline{
+        font-size: 2rem;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .parent1{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .img-png img{
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .section2{
+    
+       margin-top: 3rem;
+      
+    }
+    .logos{
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .telephone{
+        align-items: center;
+      
+    }
+    .section4{
+        padding-top: 2rem;
+    }
+    .letterbox{
+       margin-top: 1rem;
+     
+    }
+    .contact h2{
+       
+        margin-top: 2rem;
+    }
+    .headline1{
+    font-size: 1rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+      
+        
+    }
+    .flex-wrap{
+        display: flex;
+        margin-right: 1rem;
+        flex-direction: column;
+    }
+    .flex-wrap>.btn-1{
+       
+        
+    font-size: 1.1rem;
+       
+        
+    }
+    .div{
+        flex-direction: column;
+       
+    }
+    
+    .para
+    {
+        padding: 1rem 1rem;
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        text-align: justify;
+        
+    }
+    
+    .info>p{
+        padding: 1rem 1rem;
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        text-align: justify;
+        
+        margin: 0 2rem;
+       
+    
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .tick{
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }
+    .tick-content{
+        font-size: 0.5rem;
+    }
+    .png img{
+        height: 15rem;
+    width: 15rem;
+    }
+    
+    }
+    @media screen and (max-width:768px)
+    {
+        .logo{
+            margin-top: -6rem;
+        
+           
+        }
+        .logo img{
+            width: 5rem;
+        }
+        .headline1>h1{
+           
+            margin-top: 1rem;
+           padding-left: 2rem;
+           font-size: 2.5rem;
+        }
+        .flex-wrap{
+           
+            padding-left: 2rem;
+            
+        }
+        .btn-1{
+            font-size: 1.1rem;
+        }
+        .content>p{
+            font-size: 1.4rem;
+            line-height: 2rem;
+            padding-left: 2rem;
+          
+        }
+        .section1{
+           
+            justify-content: center;
+            align-items: center;
+            margin: auto; 
+             
+            padding-left: 2rem;
+            padding-right: 2rem;
+            text-align: center;    
+        }
+        .img-png{
+            align-items: center;
+            justify-content: center;
+        }
+        .div{
+            flex-direction: column;
+        }
+        .info p{
+            font-size: 1.4rem;
+            line-height: 2rem;
+            padding-left: 2rem;
+        }
+        .flex{
+            align-items: center;
+           
+           padding-left: 2rem;
+        }
+        .tick{
+            font-size: 1.4rem;
+        }
+        .parent1{
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer-content{
+                font-size: 1.4rem;
+        }
+        .logos{
+           
+            justify-items: center;
+            align-items: center;
+            
+        }
+        .section2{
+            
+            margin-top: 3rem;
+        }
+        .explore{
+            font-size: 1.3rem;
+            text-align: center;
+            
+        }
+        .list ul{
+            line-height: 2.4rem;
+            font-size: 1.4rem;
+            text-align: center;
+        }
+       
+        .contact h2{
+            text-align: center;
+            font-size:2rem;
+            margin-top: 2rem;
+        }
+       
+        .location-png img{ 
+            width: 50px;
+        }
+        .location-info{
+            font-size: 1.2rem;
+        }
+        .phone-logo img{
+            width: 50px;
+        }
+        .number{
+            font-size: 1.2rem;
+            margin-left: 2rem;
+        }
+        .Email-png img{
+    width: 50px;
+        }
+        .email-info{
+            font-size: 1.2rem;
+        }
+        .newsletter{
+            font-size: 1.4rem;
+          
+          margin-top: 3rem;
+          text-align: center;
+        }
+        .letterbox{
+        margin-top: 1.5rem;
+            
+        }
+        .facebook{
+            margin: auto;
+        }
+        .twitter{
+            margin: auto;
+        }
+        .pinterest{
+            margin: auto;
+        }
+        .instagram{
+            margin: auto;
+        }
+    }
+/* ------------------css ends------------------     */
+
+
+          
+         
+
+          
+        
+        
+        
+        
+        </style>
+<body>
+
+</body style="overflow-x: hidden !important;">
+        <!-- ------- navbar section starts------------ -->
+        <section class="header_section">
+            <header id="navbar_top">
+                <a class="y_logo" href="#"><img src="about_images/whiteaccord.png" alt="logo"></a>
+                <nav>
+                    <ul class="nav__links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="jaydeep-portfolio.html">Portfelio</a></li>
+                        <li><a href="yadnesh-allservice.html">Services</a></li>
+                        <li><a href="jaydeep-ourTeam.html">Our Team</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <!-- <li><a href="#"><img src="yadnesh-images/search.svg" alt="" ></a></li> -->
+                        
+                    </ul>
+                </nav>
+                <a class="cta" href="#">Call Anytime <br> 666 8888 0000</a>
+                <p class="menu cta"><i style="color: orange;" class="fas fa-bars fa-2x"></i></p>
+            </header>
+            <div class="overlay">
+                <a class="close">&times;</a>
+                <div class="overlay__content">
+                    <a href="index.html">HOME</a>    
+                    <a href="#aboutus">ABOUT US</a>    
+                    <a href="yadnesh-allservice.html">SERVICES</a>  
+                    <a href="jaydeep-portfolio.html">PORTFOLIO</a>  
+                    <a href="jaydeep-ourTeam.html">OUR TEAMS</a>    
+                    <!-- <li><a>SHOP</a></li> -->
+                    <a href="blog.html">BLOG</a>    
+                    <a href="#contact">CONTACT US</a>   
+                <!-- <a href="#"><img src="search.svg" alt=""></a> -->
+                </div>
+            </div>
+    
+            <div class="center-head">
+                <p class="servi-head1">About Us</p>
+                <p class="servi-head2"><a href="index.html" target="_blank">Home - </a><span style="color: orange;"> About Us </span></p>
+              
+              </div>
+        </section>
+    
+        <!-- ------- navbar section ends------------ -->
+
+        <!-- --------------main page starts ----------- -->
+        <section class="section_one_images_box">
+          <div class="one_main_div">
+        
+            <div class="one_web_main">
+                 <div class="one_web">
+                     <img src="about_images/img_1.jpg">
+                 </div>
+                 
+                 <div class="desc">
+                     <div class="desc_text">
+                    <h1>ALL-IN-ONE WEB SOLUTION FOR YOUR BUSINESS</h1>
+                 </div>
+                 <a href="#"><div class="playBtn"><i class="fas fa-greater-than"></i></div></a>
+                </div>
+        </div>
+            <div class="best_digital_main">
+                  <div class="best_digital">
+                      <img src="about_images/img_2.jpg">
+                  </div>
+                  <div class="desc">
+                      <div class="desc_text">
+                    <h1>THE BEST DIGITAL AGENCY YOU’LL EVER NEED</h1>
+                  </div>
+                  <a href="#"><div class="playBtn"><i class="fas fa-greater-than"></i></div></a>
+                </div>
+        </div>
+          </div>
+        </section>
+            <!-- -------------section 2--------------------- -->
+        <section class="customer_feedback_section">
+            <div class="customer_feedback_section_heading"><span><h1>CUSTOMER FEEDBACK <i class="fas fa-square"></i></h1></span><span><div id="dot"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div></span></div>
+            <div id="slider">  
+   
+              <div class="slides">  
+                <div class="carsoule_element">
+                    <div class="car_top">
+                        <div class="image"><img src="about_images/avtarM.png"></div>
+                            <div class="car_top_name"><h2>1 Jaydeep Sonawane</h2>
+                                              <h4>Designation</h4>
+                            </div>
+                        <div class="colons"><i class="fas fa-quote-left fa-4x"></i></div>
+                    </div>
+                    <div class="car_desc"><h2>There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou or randomised words which don't look even slightly believable.</h2></div>
+                </div>
+               </div>
+                
+               <div class="slides">  
+                 <div class="carsoule_element">
+                    <div class="car_top">
+                        <div class="image"><img src="about_images/avtarM.png"></div>
+                            <div class="car_top_name"><h2>2 Jaydeep Sonawane</h2>
+                                              <h4>Designation</h4>
+                            </div>
+                        <div class="colons"><i class="fas fa-quote-left fa-4x"></i></div>
+                    </div>
+                    <div class="car_desc"><h2>There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou or randomised words which don't look even slightly believable.</h2></div>
+                
+                 </div>
+                 
+              </div>
+                <div class="slides">  
+                 <div class="carsoule_element">
+                    <div class="car_top">
+                        <div class="image"><img src="about_images/avtarM.png"></div>
+                            <div class="car_top_name"><h2>3 Jaydeep Sonawane</h2>
+                                              <h4>Designation</h4>
+                            </div>
+                        <div class="colons"><i class="fas fa-quote-left fa-4x"></i></div>
+                    </div>
+                    <div class="car_desc"><h2>There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou or randomised words which don't look even slightly believable.</h2></div>
+                
+                 </div>
+                 
+              </div> 
+                <div class="slides">  
+                 <div class="carsoule_element">
+                    <div class="car_top">
+                        <div class="image"><img src="about_images/avtarM.png"></div>
+                            <div class="car_top_name"><h2>4 Jaydeep Sonawane</h2>
+                                              <h4>Designation</h4>
+                            </div>
+                        <div class="colons"><i class="fas fa-quote-left fa-4x"></i></div>
+                    </div>
+                    <div class="car_desc"><h2>There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou or randomised words which don't look even slightly believable.</h2></div>
+                
+                 </div>
+                 
+              </div> 
+                
+               <div class="slides">  
+                 <div class="carsoule_element">
+                    <div class="car_top">
+                        <div class="image"><img src="about_images/avtarM.png"></div>
+                            <div class="car_top_name"><h2>5 Jaydeep Sonawane</h2>
+                                              <h4>Designation</h4>
+                            </div>
+                        <div class="colons"><i class="fas fa-quote-left fa-4x"></i></div>
+                    </div>
+                    <div class="car_desc"><h2>There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou or randomised words which don't look even slightly believable.</h2></div>
+                
+                 </div>
+                 
+              </div> 
+                <div class="slides">  
+                 <div class="carsoule_element">
+                    <div class="car_top">
+                        <div class="image"><img src="about_images/avtarM.png"></div>
+                            <div class="car_top_name"><h2>6 Jaydeep Sonawane</h2>
+                                              <h4>Designation</h4>
+                            </div>
+                        <div class="colons"><i class="fas fa-quote-left fa-4x"></i></div>
+                    </div>
+                    <div class="car_desc"><h2>There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou or randomised words which don't look even slightly believable.</h2></div>
+                
+                 </div>
+                 
+              </div> 
+                
+                </div>
+        
+        </section>
+        <!-- ---------------------section 3---------------------- -->
+        <section class="various_counts_sections">
+            <div class="main_number_counts">
+            <span class="num_counts_span">
+                <div class="num_counts">
+                    <h1>1000</h1>
+                    <h2>PROJECTS COMPLETED</h2>
+                </div>
+                <div class="num_counts">
+                    <h1>1000</h1>
+                    <h2>ACTIVE CLIENTS</h2>
+                </div>
+            </span>
+            <span class="num_counts_span">
+                <div class="num_counts">
+                    <h1>1000</h1>
+                    <h2>CUPS OF COFFEE</h2>
+                </div>
+                <div class="num_counts num_count_last">
+                    <h1>1000</h1>
+                    <h2>HAPPY CLIENTS</h2>
+                </div>
+            </span>
+            </div>
+        </section>
+        <!-- ------------section 4----------------- -->
+        <section class="great_things_section">
+            <div class="great_things_main">
+                <div class="circle_logo_main">
+                    <div class="circle_logo"></div>
+                </div>
+                <div class="great_things_text">
+                    <h1><span class="great_things_white_text">THINGS IN BUSINESS ARE NEVER DONE BY ONE PERSON.</span> 
+                        <span class="great_things_orange_text"> THEY’RE DONE BY A TEAM OF PEOPLE.</span></h1>
+                </div>
+            </div>
+        </section>
+
+<!-- -----------------section 5---------------------------- -->
+<section class="best_design_agency_solutions_section">
+    <div class="best_design_agency_main_div">
+        <div class="best_design_agency_left_side">
+            <div class="best_design_agency_left_heading"><h1>BEST DESIGN AGENCY SOLUTIONS<span class="best_design_agency_left_heading_dot">.</span></h1></div>
+            <div class="best_design_agency_left_buttons">
+                <span class="best_design_agency_left_buttons_span">
+                    <button class="best_design_agency_left_buttons_span_btn">OUR MISSION</button>
+                </span>
+                <span class="best_design_agency_left_buttons_span">
+                    <button class="best_design_agency_left_buttons_span_btn">OUR VISION</button>
+                </span>
+                <span class="best_design_agency_left_buttons_span">
+                    <button class="best_design_agency_left_buttons_span_btn">OUR HISTORY</button>
+                </span>
+            </div>
+            <div class="best_design_agency_left_desc">There are many variations of passages of avaialable but the majority have in some form, by injected humou or words which don't look even slightly believable. There are many variations of but the majority have suffered.</div>
+        </div>
+        <div class="best_design_agency_right_side">
+            <div class="best_design_agency_right_desc">There are many variations of passages of avaialable but the majority have in some form, by injected humou or words which don't look even slightly believable. There are many variations of but the majority have suffered.</div>
+            <div class="best_design_agency_right_down">
+                <span class="best_design_agency_right_image"><div class="best_design_agency_right_image_div"><img src="about_images/img_3.jpg"></div></span>
+                <span class="best_design_agency_right_ticks">
+                    <h3><i class="fas fa-check"></i>  Nsectetur cing elit.</h3>
+                    <h3><i class="fas fa-check"></i>  Suspe ndisse suscipit sagittis leo.</h3>
+                    <h3><i class="fas fa-check"></i>  Entum estibulum dignissim posuere.</h3>
+                    <h3><i class="fas fa-check"></i>  If you are going to use a passage.</h3>
+                    <h3><i class="fas fa-check"></i>  Lorem Ipsum on the tend to repeat.</h3>
+
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ----------------section 6-------------------------- -->
+
+<section class="meet_expert_team_section">
+    <div class="meet_expert_team_section_heading"><h1>MEET THE EXPERT TEAM<span class="meet_expert_team_section_heading_dot">.</span></h1></div>
+    <div class="meet_expert_team_section_carsoule">
+        <span class="expert_team_carsoule_element_member">
+            <div class="expert_team_carsoule_element_member_image"><img src="about_images/avtarM.png"></div>
+            <div class="expert_team_carsoule_element_member_social_media"><i class="fab fa-facebook fa-2x font_awe"></i><i class="fab fa-instagram fa-2x font_awe"></i><i class="fab fa-whatsapp fa-2x font_awe"></i><i class="fab fa-twitter fa-2x font_awe"></i></div>
+            <div class="expert_team_carsoule_element_member_name_desg">
+                <h1>__name__</h1>
+                <h3>__designation__</h3>
+            </div>
+        </span>
+        <span class="expert_team_carsoule_element_member">
+            <div class="expert_team_carsoule_element_member_image"><img src="about_images/avtarM.png"></div>
+            <div class="expert_team_carsoule_element_member_social_media"><i class="fab fa-facebook fa-2x font_awe"></i><i class="fab fa-instagram fa-2x font_awe"></i><i class="fab fa-whatsapp fa-2x font_awe"></i><i class="fab fa-twitter fa-2x font_awe"></i></div>
+            <div class="expert_team_carsoule_element_member_name_desg">
+                <h1>__name__</h1>
+                <h3>__designation__</h3>
+            </div>
+        </span>
+        <span class="expert_team_carsoule_element_member">
+            <div class="expert_team_carsoule_element_member_image"><img src="about_images/avtarM.png"></div>
+            <div class="expert_team_carsoule_element_member_social_media"><i class="fab fa-facebook fa-2x font_awe"></i><i class="fab fa-instagram fa-2x font_awe"></i><i class="fab fa-whatsapp fa-2x font_awe"></i><i class="fab fa-twitter fa-2x font_awe"></i></div>
+            <div class="expert_team_carsoule_element_member_name_desg">
+                <h1>__name__</h1>
+                <h3>__designation__</h3>
+            </div>
+        </span>
+    </div>
+</section>
+<!-- ------------------section 7------------------------ -->
+    <section class="with_clients_section">
+        <div class="with_clients_section_main">
+        <div class="with_clients_section_left"><h1>SOME OF THE CLIENTS WE HAVE WORKED WITH<span class="with_clients_section_left_dot">.</span></h1></div>
+        <div class="with_clients_section_right"><span class="with_clients_section_right_span"><i class="fab fa-asymmetrik"></i> accord</span>
+                                                <span class="with_clients_section_right_span"><i class="fab fa-asymmetrik"></i> accord</span>
+                                                <span class="with_clients_section_right_span"><i class="fab fa-asymmetrik"></i> accord</span>
+                                                <span class="with_clients_section_right_span"><i class="fab fa-asymmetrik"></i> accord</span>
+                                                <span class="with_clients_section_right_span"><i class="fab fa-asymmetrik"></i> accord</span>
+                                                <span class="with_clients_section_right_span"><i class="fab fa-asymmetrik"></i> accord</span>    
+        </div>
+    </div>
+    </section>
+
+        
+
+
+
+
+
+
+
+
+
+            <!-- ------------main page ends ---------------- -->
+
+
+<!-- -----------------footer section------------------------ -->
+
+
+        <!-- -----------------footer------------ -->
+        <footer style="background-color: #333;">
+            <div class="parent1" style=" padding: 5rem 3rem;display: flex;justify-content: space-evenly;">
+            <div class="section1">
+            
+                <div style="display: flex;" class="img-png">
+                  <img src="./footer-logo.png" width="100"/>
+                </div>
+                <div class="footer-content">
+                  <h3 style="color: whitesmoke;padding-top: 2rem;font-family: 'Oswald', sans-serif;letter-spacing: 1.6px;">
+                    Welcome to our web design  <br>
+                    agency. Lorem ipsum simply free <br>
+                     text dolor sited amet cons cing elit.</h3>
+                </div>
+                <div class="logos"  style="display: flex;justify-content: space-between;">
+                  <div class="kal_facebook">
+                    <img src="./icons8-facebook-48.png" alt="" style="color: white; width: 30px">
+                  </div>
+                  <div class="kal_twitter"> 
+                    <img src="./icons8-twitter-60.png" alt="" width="30px">
+                  </div>
+                  <div class="kal_instagram">
+                    <img src="./icons8-instagram-48.png" alt="" width="30px">
+                  </div>
+                  <div class="kal_pinterest">
+                    <img src="./icons8-pinterest-48 (1).png" alt="" width="30px">
+                  </div>
+                </div>
+              </div>
+              <div class="section2" >
+                <div class="explore"><h2 style="font-family:  'Rubik', sans-serif;">Explore</h2></div>
+                <div class="list">
+                    <ul>
+                    <li>About us</li>
+                    <li>Meet Our Team</li>
+                    <li>Our portfolio</li>
+                    <li>Contact Us</li>
+                    <li>Help</li>
+                  </ul>
+                </div>
+              </div>
+              
+            
+              <div class="section3">
+                
+                <div class="contact">
+                  <h2 style="color: whitesmoke;font-family:  'Rubik', sans-serif;">Contact</h2>
+                  <div class="address">
+                    <div class="location-png">
+                      <img src="./icons8-location-64.png" alt="">
+                    </div>
+                    <div class="location-info">66 Broklyn Street, New York <br />
+                      United States of America</div>
+                  </div>
+                  
+                  <div class="telephone">
+                    <div class="phone-logo">
+                      <img src="./icons8-phone-ringing-30.png" alt=""></div>
+                    <div class="number">666 888 000</div>
+                  </div>
+                </div>
+                <div class="mail">
+                  <div class="Email-png">
+                    <img src="./icons8-mail-48.png" alt="">
+                  </div>
+                  <div class="email-info">
+                    accord@gmail.com
+                  </div>
+                </div>
+              </div>
+              <div class="section4">
+                <div class="newsletter"><h2 style="font-family:  'Rubik', sans-serif;">newsletter</h2></div>
+                <div class="letterbox">
+                  <input type="text" />
+                  <img src="./icons8-mail-48.png" alt="">
+        
+                </div>
+                <div class="contactUs">
+                  <button>Contact Us</button>
+                </div>
+              </div>
+            </div>
+                    
+          </footer>
+  
+<!-- --------------footer ends----------------   -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- --------footer section starts ---------------- -->
+
+            <!-- --------footer section ends ---------------- -->
+
+            
+            <script type="text/javascript">
+                const doc = document;
+                const menuOpen = doc.querySelector(".menu");
+                const menuClose = doc.querySelector(".close");
+                const overlay = doc.querySelector(".overlay");
+                
+                menuOpen.addEventListener("click", () => {
+                  overlay.classList.add("overlay--active");
+                });
+                
+                menuClose.addEventListener("click", () => {
+                  overlay.classList.remove("overlay--active");
+                });
+                
+                
+                </script>
+
+        <script type="text/javascript">
+            var index = 0;
+var slides = document.querySelectorAll(".slides");
+var dot = document.querySelectorAll(".dot");
+
+function changeSlide(){
+
+  if(index<0){
+    index = slides.length-1;
+  }
+  
+  if(index>slides.length-1){
+    index = 0;
+  }
+  
+  for(let i=0;i<slides.length;i++){
+    slides[i].style.display = "none";
+    dot[i].classList.remove("active");
+  }
+  
+  slides[index].style.display= "block";
+  dot[index].classList.add("active");
+  
+  index++;
+  
+  setTimeout(changeSlide,7000);
+  
+}
+
+changeSlide();
+        </script>
+
+
+</html>

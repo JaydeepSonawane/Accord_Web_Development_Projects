@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            About Us Page
+        </title>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=0.86, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.min.css" integrity="sha512-QfDd74mlg8afgSqm3Vq2Q65e9b3xMhJB4GZ9OcHDVy1hZ6pqBJPWWnMsKDXM7NINoKqJANNGBuVRIpIJ5dogfA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+        /* ---------main div css----------------- */
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Teko', sans-serif;
+        }
+        .section_one_images_box{
+            width: 100%;
+            height: auto;
+            padding-top: 5%;
+            /* background-color: crimson; */
+            
+        }
+
+        .one_main_div{
+            width: 100%;
+            height: auto;
+            display: flex;
+        }
+        .one_web_main{
+            width: auto;
+            height: auto;
+            margin: auto;
+        }
+
+        .best_digital_main{
+            width: auto;
+            height: auto;
+            margin: auto;
+        }
+
+        .one_web{
+            width: 500px;
+            height: 450px;
+            /* background-color: aqua; */
+            margin: auto;
+            
+        }
+
+        .best_digital{
+            width: 500px;
+            height: 450px;
+            /* background-color:black; */
+            margin: auto;
+            
+
+        }
+        .one_web img{
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 8px;
+            filter: grayscale(100%);
+        }
+        .one_web img:hover{
+            filter: grayscale(0%);
+        }
+          .best_digital img{
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 8px;
+            filter: grayscale(100%);
+        }
+        .best_digital img:hover{
+            filter: grayscale(0%);
+        }
+
+        .desc{
+            width: 320px;
+            height: 170px;
+            background-color: #ffaa18;
+            word-wrap: break-word;
+            margin-left: 1%;
+            text-align: left;
+            border-radius: 8px;
+            transform: translate(-20px,-197px);
+        }
+        .desc_text h1{
+            font-size: 30px;
+            color: #222429;
+            padding: 9%;
+            /* font-weight: 300; */
+            
+        }
+        .playBtn{
+            
+            width: 50px;
+            height: 40px;
+            color: cornsilk;
+            text-align: center;
+            padding-top: 14px;
+            padding-bottom: -2px;
+            padding-left: 1px;
+            padding-right: 1px;
+            font-size: 20px;
+            font-weight: lighter;
+            border-radius: 50%;
+            background-color: #222429;
+            transform: translate(250px,-78px);
+
+        }
+        .playBtn:hover{
+            cursor: pointer;
+        }
+        /* .fa-greater-than{
+          color: cornsilk;
+        } */
+
+        /* -----------section 2--------------- */
+        .customer_feedback_section{
+            width: 100%;
+            height: auto;
+            background-color: #E1E1E1;
+        }
+        .customer_feedback_section_heading{
+            width: 85%;
+            height: auto;
+            margin: auto;
+        }
+        .customer_feedback_section_heading h1{
+            font-size: 70px;
+            
+
+        }
+        .fa-square{
+            color: orange;
+            font-size: 15px;
+        }
+        
+
+
+
+#slider{
+  margin:auto;
+  width:40%;
+  overflow:hidden;
+/*   display:flex; */
+}
+
+.slides{
+  overflow:hidden;
+  margin:auto;
+  display:flex;
+  animation-name:fade;
+  animation-duration:4s;
+}
+@keyframes fade{
+  0%{opacity: 0;}
+  25%{opacity: 0.3;}
+  50%{opacity: 0.7;}
+  100%{opacity: 1;}
+}
+
+
+.carsoule_element{
+  width:80%;
+  height:auto;
+  background-color:#fff;
+  margin:10px;
+  border-radius: 8px;
+  padding: 3%;
+  display:block;
+}
+
+.carsoule_element:hover{
+    background-color: orange;
+
+}
+
+#dot{
+  margin:0 auto;
+  text-align:center;
+}
+.dot{
+  display:inline-block;
+  border-radius:50%;
+  background:#B4B4B4;
+  padding:5px;
+  margin:5px 5px;
+}
+
+.active{
+  border:2px solid orange;
+  background:#fff;
+  padding:3px;
+}
+
+.car_top{
+    width: 88%;
+    height: 80px;
+    text-align: left;
+    display: flex;
+    /* background-color: paleturquoise; */
+    margin: auto;
+}
+
+.image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.image img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+.name{
+    width: 60%;
+    padding: 3%;
+}
+.name h2{
+    letter-spacing: 1px;
+}
+.name h4{
+    letter-spacing: 1px;
+    color: orange;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.carsoule_element:hover .name h4{
+    color: black;
+}
+.colons{
+    text-align: right;
+}
+.fa-quote-left{
+    color: orange;
+}
+.carsoule_element:hover .fa-quote-left{
+    color: black;
+}
+.car_desc{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 6%;
+    /* background-color: orangered; */
+}
+.car_desc h2{
+    font-weight: lighter;
+    font-size: 17px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+
+
+
+
+@media (max-width:567px){
+  #slider{
+    width:100%;
+
+  }
+}
+
+
+
+
+
+/* -------Media Queries--------------------         */
+        /* ------css for 992px--------------------- */
+        @media (max-device-width: 992px){
+            
+        }
+
+
+
+
+        /* --------css for 840px------------------------ */
+        @media (max-device-width: 840px){
+            .one_main_div{
+                display: block;
+            }
+        }
+
+
+
+
+
+        /* ------------css for 440px--------------- */
+        @media (max-device-width: 440px){
+              .one_web img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .one_web{
+            width: 280px;
+            height: 240px;
+        }
+
+        .best_digital_main{
+            margin-top: -10%;
+        }
+
+        .best_digital{
+            width: 280px;
+            height: 240px;
+        }
+          .best_digital img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .desc{
+            width: 175px;
+            height: 90px;
+            transform: translate(0px,-90px);
+        }
+        .desc h1{
+            font-size: 20px;
+            padding: 7%;
+            font-weight: lighter;
+        }
+        .playBtn{
+            
+            width: 30px;
+            height: 20px;
+            color: cornsilk;
+            text-align: center;
+            padding-top: 9px;
+            padding-bottom: 2px;
+            padding-left: 1px;
+            padding-right: 1px;
+            font-size: 10px;
+            font-weight: lighter;
+            border-radius: 50%;
+            background-color: #222429;
+            /* transform: translate(250px,-75px); */
+
+        }
+        .playBtn{
+            transform: translate(130px,-30px);
+            
+        }
+        .customer_feedback_section_heading h1{
+            font-size: 45px;
+        }
+        .car_desc{
+            padding-top: 10%;
+        }
+    }
+
+          
+         
+
+          
+        
+        
+        
+        
+        </style>
+<body>
+
+</body style="overflow-x: hidden !important;">
+        <!-- ------- navbar section starts------------ -->
+        <section class="navbar">
+        </section>
+        <!-- ------- navbar section ends------------ -->
+
+        <!-- --------------main page starts ----------- -->
+        <section class="section_one_images_box">
+          <div class="one_main_div">
+        
+            <div class="one_web_main">
+                 <div class="one_web">
+                     <img src="about_images/img_1.jpg">
+                 </div>
+                 
+                 <div class="desc">
+                     <div class="desc_text">
+                    <h1>ALL-IN-ONE WEB SOLUTION FOR YOUR BUSINESS</h1>
+                 </div>
+                 <a href="#"><div class="playBtn"><i class="fas fa-greater-than"></i></div></a>
+                </div>
+        </div>
+            <div class="best_digital_main">
+                  <div class="best_digital">
+                      <img src="about_images/img_2.jpg">
+                  </div>
+                  <div class="desc">
+                      <div class="desc_text">
+                    <h1>THE BEST DIGITAL AGENCY YOU’LL EVER NEED</h1>
+                  </div>
+                  <a href="#"><div class="playBtn"><i class="fas fa-greater-than"></i></div></a>
+                </div>
+        </div>
+          </div>
+        </section>
+            <!-- -------------section 2--------------------- -->
+        <section class="customer_feedback_section">
+            <div class="customer_feedback_section_heading"><span><h1>CUSTOMER FEEDBACK <i class="fas fa-square"></i></h1></span><span><div id="dot"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div></span></div>
+            <div id="slider">  
+   
+              <div class="slides">  
+                <div class="carsoule_element">
+                    <div class="car_top">
+                        <div class="image"><img src="about_images/avtarM.png"></div>
+                            <div class="name"><h2>1 Jaydeep Sonawane</h2>
+                                              <h4>Designation</h4>
+                            </div>
+                        <div class="colons"><i class="fas fa-quote-left fa-4x"></i></div>
+                    </div>
+                    <div class="car_desc"><h2>There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou or randomised words which don't look even slightly believable.</h2></div>
+                </div>
+               </div>
+                
+               <div class="slides">  
+                 <div class="carsoule_element">
+                    <div class="car_top">
+                        <div class="image"><img src="about_images/avtarM.png"></div>
+                            <div class="name"><h2>2 Jaydeep Sonawane</h2>
+                                              <h4>Designation</h4>
+                            </div>
+                        <div class="colons"><i class="fas fa-quote-left fa-4x"></i></div>
+                    </div>
+                    <div class="car_desc"><h2>There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou or randomised words which don't look even slightly believable.</h2></div>
+                
+                 </div>
+                 
+              </div>
+                <div class="slides">  
+                 <div class="carsoule_element">
+                    <div class="car_top">
+                        <div class="image"><img src="about_images/avtarM.png"></div>
+                            <div class="name"><h2>3 Jaydeep Sonawane</h2>
+                                              <h4>Designation</h4>
+                            </div>
+                        <div class="colons"><i class="fas fa-quote-left fa-4x"></i></div>
+                    </div>
+                    <div class="car_desc"><h2>There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou or randomised words which don't look even slightly believable.</h2></div>
+                
+                 </div>
+                 
+              </div> 
+                <div class="slides">  
+                 <div class="carsoule_element">
+                    <div class="car_top">
+                        <div class="image"><img src="about_images/avtarM.png"></div>
+                            <div class="name"><h2>4 Jaydeep Sonawane</h2>
+                                              <h4>Designation</h4>
+                            </div>
+                        <div class="colons"><i class="fas fa-quote-left fa-4x"></i></div>
+                    </div>
+                    <div class="car_desc"><h2>There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou or randomised words which don't look even slightly believable.</h2></div>
+                
+                 </div>
+                 
+              </div> 
+                
+               <div class="slides">  
+                 <div class="carsoule_element">
+                    <div class="car_top">
+                        <div class="image"><img src="about_images/avtarM.png"></div>
+                            <div class="name"><h2>5 Jaydeep Sonawane</h2>
+                                              <h4>Designation</h4>
+                            </div>
+                        <div class="colons"><i class="fas fa-quote-left fa-4x"></i></div>
+                    </div>
+                    <div class="car_desc"><h2>There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou or randomised words which don't look even slightly believable.</h2></div>
+                
+                 </div>
+                 
+              </div> 
+                <div class="slides">  
+                 <div class="carsoule_element">
+                    <div class="car_top">
+                        <div class="image"><img src="about_images/avtarM.png"></div>
+                            <div class="name"><h2>6 Jaydeep Sonawane</h2>
+                                              <h4>Designation</h4>
+                            </div>
+                        <div class="colons"><i class="fas fa-quote-left fa-4x"></i></div>
+                    </div>
+                    <div class="car_desc"><h2>There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou or randomised words which don't look even slightly believable.</h2></div>
+                
+                 </div>
+                 
+              </div> 
+                
+                </div>
+        
+        </section>
+        
+
+
+
+
+
+
+
+
+
+            <!-- ------------main page ends ---------------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- --------footer section starts ---------------- -->
+
+            <!-- --------footer section ends ---------------- -->
+
+            
+    <script type="text/javascript">
+        const doc = document;
+        const menuOpen = doc.querySelector(".menu");
+        const menuClose = doc.querySelector(".close");
+        const overlay = doc.querySelector(".overlay");
+        
+        menuOpen.addEventListener("click", () => {
+          overlay.classList.add("overlay--active");
+        });
+        
+        menuClose.addEventListener("click", () => {
+          overlay.classList.remove("overlay--active");
+        });
+            
+        </script>
+
+        <script type="text/javascript">
+            var index = 0;
+var slides = document.querySelectorAll(".slides");
+var dot = document.querySelectorAll(".dot");
+
+function changeSlide(){
+
+  if(index<0){
+    index = slides.length-1;
+  }
+  
+  if(index>slides.length-1){
+    index = 0;
+  }
+  
+  for(let i=0;i<slides.length;i++){
+    slides[i].style.display = "none";
+    dot[i].classList.remove("active");
+  }
+  
+  slides[index].style.display= "block";
+  dot[index].classList.add("active");
+  
+  index++;
+  
+  setTimeout(changeSlide,7000);
+  
+}
+
+changeSlide();
+        </script>
+
+
+</html>
